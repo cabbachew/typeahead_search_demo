@@ -1,24 +1,3 @@
-# README
+# Typeahead Searching with Hotwire
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Following [this lesson](https://thoughtbot.com/blog/hotwire-typeahead-searching) from [Thoughtbot](https://thoughtbot.com/blog), this demo application utilizes an out-of-the-box Rails installation to build a collapsible search-as-you-type text box that expands to show its results in-line while searching, supports keyboard navigation and selection, and only submits requests to our server when there is a search term.

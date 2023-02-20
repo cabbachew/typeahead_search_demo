@@ -1,2 +1,9 @@
-<h1>Searches#index</h1>
-<p>Find me in app/views/searches/index.html.erb</p>
+<h1>Search Results</h1>
+
+<ul>
+  <% @messages.each do |message| %>
+    <li>
+      <%= link_to highlight(message.body, params[:query]), message_path(message) %>
+    </li>
+  <% end %>
+</ul>

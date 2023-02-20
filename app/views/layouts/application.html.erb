@@ -16,7 +16,7 @@
         data-turbo-frame="search_results"
         class="peer"
         data-controller="form"
-        data-action="invalid->form#hideValidationMessage:capture"
+        data-action="invalid->form#hideValidationMessage:capture input->form#submit"
       >
         <label for="search_query">Query</label>
         <input 
@@ -29,7 +29,7 @@
           data-combobox-target="input"
           data-action="focus->combobox#start focusout->combobox#stop"
         >
-        <button>Search</button>
+        <button data-form-target="submit">Search</button>
       </form>
       <turbo-frame 
         id="search_results"

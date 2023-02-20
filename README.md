@@ -8,7 +8,7 @@ The source article states that code samples contained in it "omit the majority o
 
 ### The Setup
 
-After generating a Message scaffold, running `bin/rails db:migrate` and declaring `root 'searches#index'` in `routes.rb` enables us to start up the `rails server` and see the application in action.
+After generating a Message scaffold, running `bin/rails db:migrate` and declaring `root 'searches#home'` in `routes.rb` enables us to start up the `rails server` and see the application in action. Remember to add a `home` action to the `SearchesController` as well as the corresponding view.
 
 ### The `Message.containing` Scope
 

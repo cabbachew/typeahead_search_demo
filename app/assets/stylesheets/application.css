@@ -13,3 +13,10 @@
  *= require_tree .
  *= require_self
  */
+
+ .empty\:hidden:empty {
+   display: none;
+ }
+ .peer:invalid ~ .peer-invalid\:hidden {
+   display: none;
+ }
